@@ -1,4 +1,4 @@
 {
-  "**/*.js": ["prettier --write"],
+  "**/*.js": ["prettier --write", "eslint --fix"],
   "package.json": ["npx sort-package-json"]
 }
