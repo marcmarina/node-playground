@@ -1,4 +1,4 @@
-const { isXMultipleOfAll, isXMultipleOfN } = require('./multiples');
+import { isXMultipleOfAll, isXMultipleOfN } from './multiples';
 
 describe('isXMultipleOfN', () => {
   it.each`
