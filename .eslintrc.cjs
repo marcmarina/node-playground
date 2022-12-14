@@ -14,5 +14,16 @@ module.exports = {
     'no-console': 'off',
     'import/extensions': 'off',
     'no-plusplus': 'off',
+    'no-duplicate-imports': 'error',
+    'import/order': [
+      'error',
+      {
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+        'newlines-between': 'always',
+      },
+    ],
   },
 };
