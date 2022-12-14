@@ -13,7 +13,8 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.19.6"
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "dayjs": "^1.11.7"
   },
   "devDependencies": {
     "@types/jest": "^29.2.4",
