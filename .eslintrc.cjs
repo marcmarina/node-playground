@@ -12,6 +12,7 @@ module.exports = {
   },
   rules: {
     'no-console': 'off',
+    'operator-linebreak': 'off',
     'import/extensions': 'off',
     'no-plusplus': 'off',
     'no-duplicate-imports': 'error',
