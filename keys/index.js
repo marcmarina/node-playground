@@ -1,6 +1,3 @@
-/* eslint-disable guard-for-in */
-/* eslint-disable no-restricted-syntax */
-
 const keyMap = {
   name: 'firstName',
   jobTitle: 'title',
