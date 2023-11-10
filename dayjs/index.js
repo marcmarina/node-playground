@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
 
-const out = dayjs().format('DD MMM YYYY');
+const out = dayjs().toDate();
 
 console.log(out);
